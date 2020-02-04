@@ -15,6 +15,8 @@
 		780919AF23E9727D003A622E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780919AD23E9727D003A622E /* LaunchScreen.storyboard */; };
 		780919BA23E9727E003A622E /* chuckDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780919B923E9727E003A622E /* chuckDemoTests.swift */; };
 		780919C523E9727E003A622E /* chuckDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780919C423E9727E003A622E /* chuckDemoUITests.swift */; };
+		780919D323E973AC003A622E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780919D223E973AC003A622E /* API.swift */; };
+		780919D523E97A3D003A622E /* ChuckJoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780919D423E97A3D003A622E /* ChuckJoke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		780919C023E9727E003A622E /* chuckDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chuckDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		780919C423E9727E003A622E /* chuckDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chuckDemoUITests.swift; sourceTree = "<group>"; };
 		780919C623E9727E003A622E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		780919D223E973AC003A622E /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		780919D423E97A3D003A622E /* ChuckJoke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckJoke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				780919AB23E9727D003A622E /* Assets.xcassets */,
 				780919AD23E9727D003A622E /* LaunchScreen.storyboard */,
 				780919B023E9727D003A622E /* Info.plist */,
+				780919D223E973AC003A622E /* API.swift */,
+				780919D423E97A3D003A622E /* ChuckJoke.swift */,
 			);
 			path = chuckDemo;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				780919A723E97276003A622E /* ViewController.swift in Sources */,
 				780919A323E97276003A622E /* AppDelegate.swift in Sources */,
+				780919D323E973AC003A622E /* API.swift in Sources */,
+				780919D523E97A3D003A622E /* ChuckJoke.swift in Sources */,
 				780919A523E97276003A622E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
