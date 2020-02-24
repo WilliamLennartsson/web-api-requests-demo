@@ -11,7 +11,6 @@ import Foundation
 struct ChuckAPI {
     let baseURL: String = "https://api.chucknorris.io/jokes/"
     
-    
     func getRandomJoke(completion: @escaping( Result<ChuckJoke, Error>) -> Void) {
         // url
         let urlString = baseURL + "random"
@@ -44,3 +43,14 @@ struct ChuckAPI {
     }
     
 }
+
+struct Response {
+    let user: User
+}
+struct User {
+    let bankDetails: BankDetails
+}
+struct BankDetails {
+    
+}
+

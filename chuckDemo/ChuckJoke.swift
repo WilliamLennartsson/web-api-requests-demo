@@ -11,4 +11,8 @@ import Foundation
 struct ChuckJoke: Codable {
     let id: String
     let value: String
+    private enum CodingKeys : String, CodingKey {
+       case value = "joke", id
+   }
 }
+
